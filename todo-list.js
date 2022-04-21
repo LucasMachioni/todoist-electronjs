@@ -1,5 +1,5 @@
 adicionarItem = ()=> {
-const valorInput = "Minha primeira tarefa";
+const valorInput = document.getElementById("oi").value
 
 //Pegado a tag UL do nosso HTML pelo ID
 const minhaTagUl = document.getElementById("lista-de-tarefas")
