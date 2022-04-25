@@ -1,3 +1,14 @@
+const adicionarItemPelaTecla = (event) => {
+  const tecla = event.key;
+
+if(tecla === "Enter") {
+ adicionarItem()
+
+//encerra o IF, porém não está sendo utilizado aqui, pois não temos nada abaixo do IF, apenas por demonstração
+  return;
+  }
+}
+
 adicionarItem = ()=> {
 const valorInput = document.getElementById("oi").value
 
@@ -12,5 +23,4 @@ criarTagLI.innerText = valorInput
 
 minhaTagUl.appendChild(criarTagLI)
 
-console.log("ENTROU NA FUNÇÃO ADICIONAR ITEM");
 }
