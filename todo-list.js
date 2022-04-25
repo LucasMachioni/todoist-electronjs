@@ -1,7 +1,10 @@
 const adicionarItemPelaTecla = (event) => {
+  //Pegando o tipo da tecla pelo evento
   const tecla = event.key;
 
+  //Verificando se a tecla pressionada é o Enter
 if(tecla === "Enter") {
+  //Chamando a função responsável por adicionar item
  adicionarItem()
 
 //encerra o IF, porém não está sendo utilizado aqui, pois não temos nada abaixo do IF, apenas por demonstração
