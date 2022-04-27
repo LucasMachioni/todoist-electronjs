@@ -54,6 +54,7 @@ const concluirTarefa =(event) => {
   //pegando ag <li>
   const minhaTagLi = event.target
 
-  minhaTagLi.className = "concluida"
+  minhaTagLi.className = "concluida" 
+  
 
 }
